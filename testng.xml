@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="TestOne">
+		<classes>
+			<class name="com.sellabs.testNG.MyTestClass1" />
+		</classes>
+	</test>
+	<test name="TestTwo">
+		<classes>
+			<class name="com.sellabs.testNG.MyTestClass1" />
+			<class name="com.sellabs.testNG.MyTestClass2" />
+		</classes>
+	</test>
+</suite>

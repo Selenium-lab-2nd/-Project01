@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestTwo"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.006">
+  <properties />
+  
+  
+            <testcase name="myTestMethod3" time="0.004" classname="com.sellabs.testNG.MyTestClass2" />
+                <testcase name="myTestMethod4" time="0.002" classname="com.sellabs.testNG.MyTestClass2" />
+      
+</testsuite>

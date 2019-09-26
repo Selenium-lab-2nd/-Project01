@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28" started-at="2019-09-23T09:04:05Z" finished-at="2019-09-23T09:04:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28" started-at="2019-09-23T09:04:05Z" finished-at="2019-09-23T09:04:05Z">
+      <class name="com.sellabs.testNG.SampleTestTwo">
+        <test-method status="PASS" signature="ops(java.lang.String)[pri:0, instance:com.sellabs.testNG.SampleTestTwo@3498ed]" name="ops" duration-ms="8" started-at="2019-09-23T14:34:05Z" finished-at="2019-09-23T14:34:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ops -->
+      </class> <!-- com.sellabs.testNG.SampleTestTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="3" started-at="2019-09-23T09:04:05Z" finished-at="2019-09-23T09:04:05Z">
+    <groups>
+      <group name="regression">
+        <method signature="GroupTest.advancedSearch()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="advancedSearch" class="com.sellabs.testNG.GroupTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupTest.search()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="search" class="com.sellabs.testNG.GroupTest"/>
+        <method signature="GroupTest.advancedSearch()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="advancedSearch" class="com.sellabs.testNG.GroupTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="3" started-at="2019-09-23T09:04:05Z" finished-at="2019-09-23T09:04:05Z">
+      <class name="com.sellabs.testNG.GroupTest">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="logIn" is-config="true" duration-ms="1" started-at="2019-09-23T14:34:05Z" finished-at="2019-09-23T14:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="search" duration-ms="0" started-at="2019-09-23T14:34:05Z" finished-at="2019-09-23T14:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="advancedSearch()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="advancedSearch" duration-ms="0" started-at="2019-09-23T14:34:05Z" depends-on-methods="com.sellabs.testNG.GroupTest.search" finished-at="2019-09-23T14:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advancedSearch -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.sellabs.testNG.GroupTest@3f2a3a5]" name="logOut" is-config="true" duration-ms="0" started-at="2019-09-23T14:34:05Z" finished-at="2019-09-23T14:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.sellabs.testNG.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
